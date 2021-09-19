@@ -60,3 +60,5 @@ Review + create -> create manifest
 10. Login to edge vm -> execute cmd  "iotedge logs SimulatedTemperatureSensor" -> see the sensor data and reset operation.
 
 11. Configure Power BI as output of IoT Hub/ Iot edge hub and configure to see the data in Power BI
+
+References: https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-stream-analytics?view=iotedge-2020-11
