@@ -8,7 +8,7 @@
 
 **PoC solution**: The solution is implemented with Azure IoT Edge Hub, Azure Stream Analytics Edge, Azure IoT Hub and Power BI.
 
-**PoC implementation approach: **
+**PoC implementation approach**:
 
 • Azure VM is used as the edge device.
 
