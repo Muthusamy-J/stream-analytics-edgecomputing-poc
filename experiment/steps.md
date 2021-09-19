@@ -45,12 +45,12 @@ Select Save.
 
 9. Then, select Next: Routes to continue.
 Replace the default route and upstream name and values with the pairs shown in following table. (modulename -> name of your Azure Stream Analytics module)
-
+```
 telemetryToCloud	FROM /messages/modules/SimulatedTemperatureSensor/* INTO $upstream
 alertsToCloud	FROM /messages/modules/{moduleName}/* INTO $upstream
 alertsToReset	FROM /messages/modules/{moduleName}/* INTO BrokeredEndpoint("/modules/SimulatedTemperatureSensor/inputs/control")
 telemetryToAsa	FROM /messages/modules/SimulatedTemperatureSensor/* INTO BrokeredEndpoint("/modules/{moduleName}/inputs/temperature") 
-
+```
 Review + create -> create manifest
 
 10. Go to Device details page. Select Refresh.
